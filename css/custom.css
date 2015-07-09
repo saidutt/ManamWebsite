@@ -1,0 +1,132 @@
+/*Menu*/
+.top-bar .logo {
+    max-width: 170px;
+    }
+
+@media only screen and (max-width: 767px) and (min-width: 320px){
+
+    .top-bar .logo {
+     max-width: 128px !important;
+    }
+    .mobile-toggle {
+        top: 32px;
+    }
+}
+
+/* Head Section */
+.bg-gradient-yellow{
+  background: #fde700;
+  background: -moz-linear-gradient(top, #fde700 0%, #ffcd00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fde700), color-stop(100%,#ffcd00));
+  background: -webkit-linear-gradient(top, #fde700 0%,#ffcd00 100%);
+  background: -o-linear-gradient(top, #fde700 0%,#ffcd00 100%);
+  background: -ms-linear-gradient(top, #fde700 0%,#ffcd00 100%);
+  background: linear-gradient(to bottom, #fde700 0%,#ffcd00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fde700', endColorstr='#ffcd00',GradientType=0 );
+
+}
+
+/*Buttons*/
+
+.btn {
+	min-height: 70px !important;
+	min-width: 200px !important;
+}
+
+
+.btn-primary {
+	padding: 25px 25px !important;
+	border-radius: 10px;
+	font-size: 17px !important;
+	margin-bottom: 10px;
+}
+
+header .btn:last-child {
+  margin-right: 16px;
+}
+
+
+/* Typography */
+
+.inline-image-right h1{
+  line-height: 64px;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.size-weight {
+	font-size: 65px !important;
+	/*font-weight: bold;*/
+	padding-bottom:50px;
+
+}
+
+.size-w {
+	font-size: 65px;
+	line-height: 1;
+}
+
+.product-right .product-image {
+	bottom: 80px !important;
+	max-width: 700px !important;
+	padding-left: 100px !important;
+}
+
+.mgn-lft {
+	margin-left: 15px;
+}
+
+.paddi-tp {
+	padding-top: 130px;
+
+}
+
+.overlay::before {
+	background-color: #ffcd00 !important;
+}
+
+/*.background-image-holder {
+	background-color: #ffcd00 !important;
+}
+
+.background-image {
+	background-color: #ffcd00 !important;
+}*/
+
+.page-header::before {
+	background-color: #ffcd00;
+	opacity: 1.0;
+}
+
+div.product-image {
+	padding-right: 350px !important;
+}
+
+.btn-left {
+	margin-right: 16px;
+}
+
+
+.menu li a {
+	font-size: 17px;
+	padding-top: 20px;
+}
+
+.top-bar .logo {
+	max-width: 170px;
+	}
+}
+
+
+/* contact page */
+
+/* map section */
+.fade-overlay-details{
+  background-color: #ffcd00 !important;
+}
